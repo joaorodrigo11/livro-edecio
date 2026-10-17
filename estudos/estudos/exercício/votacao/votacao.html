@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    ]    <link rel="stylesheet" href="style.css">
+    m
+    <title>e-Votação</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <nav>
+            <h1 id="e-votacao">
+                <span class="cor-azul-marinho">e-</span><span class="cor-azul">Votação</span>
+            </h1>
+            <nav class="nav-links">
+                <a href="votacao.html">Início</a>
+                <a href="votacao.html">Como funciona</a>
+                <a href="votacao.html">Sobre o projeto</a>
+            </nav>
+            <p>Ambiente de votação online</p>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content-texto">
+                <span class="cor-azul-marinho-txt">Democracia mais</span> <span class="cor-azul-txt">simples.</span> <span class="cor-azul-marinho-txt">Sua voz mais</span> <span class="cor-azul-txt">forte.</span>
+                <p>Uma nova maneira de participar das decisões que importam. Escolha seu representante com praticidade e
+                    uma experiência totalmente digital.</p>
+            </div>        
+                <ul class="hero-beneficios">
+                    <li>Interface clara e intuitiva</li>
+                    <li>Confirmação antes do voto</li>
+                    <li>Experiência adaptada ao celular</li>
+                </ul>
+            
+            <div class="hero-content-votacao">
+                <p id="painel-votacao">PAINEL DE VOTAÇÃO</p>
+                <P id="status-votacao">Votação aberta</p>
+                <h2>Conselho Jovem 2026</h2>
+                <p>Escolha quem vai representar a comunidade nesta eleição demonstrativa.</p>
+                <h4>Selecione seu candidato:</h4>
+                <form id="form-votacao" action="votacao.html" method="post">
+                    <label for="candidato1">
+                        <input type="radio" id="candidato1" name="candidato" value="Candidato 1" required>
+                        Ana Martins <span class="desc-candidato">Educação e inovação.</span>
+                    </label>
+                    <label for="candidato2">
+                        <input type="radio" id="candidato2" name="candidato" value="Candidato 2" required>
+                        Bruno Costa <span class="desc-candidato">Comunidade e inclusão</span>
+                    </label>
+                    <label for="candidato3">
+                        <input type="radio" id="candidato3" name="candidato" value="Candidato 3" required>
+                        Camila Rocha <span class="desc-candidato">Tecnologia e futuro.</span>
+                    </label>
+                    <button type="submit">Confirmar Voto</button>
+                </form>    
+            </div>
+        </section>
+        <section class="hero-como-funciona">
+                <h2>Como funciona?</h2>
+                <p>Três passos para uma experiência de votação sem complicações.</p>
+                <ol>
+                    <li>Escolha seu candidato</li>
+                    <li>Confirme seu voto</li>
+                    <li>Receba a confirmação do seu voto</li>
+                </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 e-Votação. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
