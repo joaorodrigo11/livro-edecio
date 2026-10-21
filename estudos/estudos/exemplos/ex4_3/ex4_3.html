@@ -1,0 +1,22 @@
+<script>
+const bairro = prompt('Digite o nome do bairro: ')
+let taxaEntrega
+switch (bairro) {
+    case 'Centro':
+        taxaEntrega = 5.0
+        break
+    case 'Jardim':
+        taxaEntrega = 8.0
+        break
+    case 'Vila':
+        taxaEntrega = 10.0
+        break
+    case 'Fragatoa':
+        taxaEntrega = 13.0
+        break
+    default:
+        taxaEntrega = 0.0
+        break
+}
+alert(`A taxa de entrega para o bairro ${bairro} é: R$ ${taxaEntrega.toFixed(2)}`)
+</script>

@@ -16,6 +16,9 @@ frm.addEventListener("submit", (e) => {
     peso = 21 * Math.pow(altura, 2)
 }
 
+// também é possível a utilização de um operador ternário para definir o peso ideal
+// peso = masculino ? 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2)
+
 // apresenta a resposta no h3 do HTML
 resp.innerText = `${nome}: Seu peso ideal é: ${peso.toFixed(2)} kg`
 })
