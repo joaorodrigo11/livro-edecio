@@ -11,3 +11,4 @@ frm.addEventListener("submit", (e) => {
     }
     resp.innerText = `Hora na França: ${horaFranca.toFixed(2)}`
 })
+ 
