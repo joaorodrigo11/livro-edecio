@@ -21,4 +21,4 @@ frm.addEventListener("submit", (e) => { // Adiciona um ouvinte de evento para o 
     resp1.innerText = notas100 > 0 ? `Notas de R$ 100: ${notas100}` : ""; // Exibe o número de notas de R$ 100, se houver
     resp2.innerText = notas50 > 0 ? `Notas de R$ 50: ${notas50}` : ""; // Exibe o número de notas de R$ 50, se houver
     resp3.innerText = notas10 > 0 ? `Notas de R$ 10: ${notas10}` : ""; // Exibe o número de notas de R$ 10, se houver
-})  
+})
